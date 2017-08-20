@@ -1,2 +1,15 @@
 item.platinum_ingot.name=Platinum Ingot
 itemGroup.onetab=One Tab
+item.platinum_ingot.name=Platinum Ingot
+tile.platinum_ore.name=Platinum Ore
+
+item.platinum_helmet.name=Platinum Helmet
+item.platinum_chestplate.name=Platinum Chestplate
+item.platinum_leggings.name=Platinum Leggings
+item.platinum_boots.name=Platinum Boots
+
+item.platinum_sword.name=Platinum Sword
+item.platinum_pickaxe.name=Platinum Pickaxe
+item.platinum_axe.name=Platinum Axe
+item.platinum_shovel.name=Platinum Shovel
+item.platinum_hoe.name=Platinum Hoe
