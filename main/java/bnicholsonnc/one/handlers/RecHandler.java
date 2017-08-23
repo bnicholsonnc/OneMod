@@ -14,7 +14,27 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class RecHandler {
 
 	public static void registerCrafting() {
-			//platinum sword
+		//diamond dust
+		GameRegistry.addShapedRecipe(new ResourceLocation("diamond dust"), 
+				new ResourceLocation("custom_items"), new ItemStack(
+						ItemInit.diamond_dust), new Object[]{"rrr",
+						"rdr","rrr",'r',Blocks.REDSTONE_BLOCK,'d',
+						Blocks.DIAMOND_BLOCK});
+		
+		//command block
+				GameRegistry.addShapedRecipe(new ResourceLocation("command_block"),
+							new ResourceLocation("Blocks"), new ItemStack(
+								Blocks.COMMAND_BLOCK), new Object[] { "www",
+								"wdw", "www", 'w', Blocks.PLANKS, 'd',
+								ItemInit.diamond_dust });
+		//barrier block
+				GameRegistry.addShapedRecipe(new ResourceLocation("barrier block"),
+						new ResourceLocation("Blocks"), new ItemStack(
+							Blocks.BARRIER, 8), new Object[] { "ggg",
+							"gog", "ggg", 'g', Blocks.GLASS, 'o',
+							Blocks.OBSIDIAN });
+		
+		//platinum sword
 			GameRegistry.addShapedRecipe(new ResourceLocation("platinum sword"), 
 					new ResourceLocation("custom_tools"), new ItemStack(ToolInit.platinum_sword), 
 					new Object[]{" p "," p "," s ", 's', Items.STICK,'p', ItemInit.platinum_ingot});
