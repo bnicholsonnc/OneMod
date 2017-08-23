@@ -1,5 +1,7 @@
 package bnicholsonnc.one.handlers;
 
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import bnicholsonnc.one.gen.PlatinumOreGen;
 import bnicholsonnc.one.init.ArmorInit;
 import bnicholsonnc.one.init.BlockInit;
 import bnicholsonnc.one.init.ItemInit;
@@ -20,5 +22,6 @@ public class RegHandler {
 		ToolInit.register();
 		ArmorInit.init();
 		ArmorInit.register();
+		GameRegistry.registerWorldGenerator(new PlatinumOreGen(), 0);
 	}
 }
