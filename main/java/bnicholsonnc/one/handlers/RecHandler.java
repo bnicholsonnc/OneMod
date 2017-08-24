@@ -83,6 +83,11 @@ public class RecHandler {
 			GameRegistry.addShapedRecipe(new ResourceLocation("platinum ore"), 
 					new ResourceLocation("custom_ore"), new ItemStack(BlockInit.platinum_ore), 
 					new Object[]{"sss","sis","sss",'s',Blocks.STONE,'i',ItemInit.platinum_ingot});
+			
+			//platinum block
+			GameRegistry.addShapedRecipe(new ResourceLocation("platinum block"), 
+					new ResourceLocation("custom_block"), new ItemStack(BlockInit.platinum_block), 
+					new Object[]{"iii","iii","iii",'i',ItemInit.platinum_ingot});
 	}
 	
 	public static void registerSmelting(){

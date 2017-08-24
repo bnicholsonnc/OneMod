@@ -14,13 +14,16 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockInit {
 	public static Block platinum_ore;
+	public static Block platinum_block;
 	
 	public static void init(){
 		platinum_ore = new CustomOre("platinum_ore", 2.0F, 4.0F, 2);
+		platinum_block = new CustomOre("platinum_block", 2.0F, 4.0F, 2);
 	}
 	
 	public static void register(){
 		registerBlock(platinum_ore);
+		registerBlock(platinum_block);
 	}
 	
 	public static void registerBlock(Block block){
